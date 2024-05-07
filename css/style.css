@@ -1,0 +1,149 @@
+/*  https://www.figma.com/file/Vb62YiJb8ogP0AKc4E8R7R/Travel-Agency-Website?type=design&node-id=0-1&mode=design&t=SX1cDDavK49L1hKD-0 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    min-height: 100vh;
+
+}
+
+.sec1{
+    height: 788px;
+}
+
+.header{
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffff;
+   background-color: #747DFF59;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu a:hover {
+   color: #FFAD32;
+}
+
+#logo{
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.sec1{
+    background-image: url(/photos/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color: #ffff;
+}
+
+.inputs{
+    background-color: #747DFF59;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    color: #767F86;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid green;
+    display: flex;
+    align-items: end;
+    padding: 35px;
+    justify-content: center;
+    gap: 10px;
+    height: 140px;
+    width: 1303px;
+    font-size: 20.8px;
+    background-color: #f9f9f9;
+}
+
+.a1{
+    width: 405px;
+    height: 81px;
+    
+}
+
+.a2{
+    width: 289px;
+    height: 81px;
+}
+
+#local{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    font-family: "Poppins", sans-serif;
+}
+
+#data_sair{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    background-image: url(/photos/calendar.png);
+    background-repeat: no-repeat;
+    background-position: 245px;
+    background-size:  33px;
+    
+}
+
+#data_voltar{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    background-image: url(/photos/calendar.png);
+    background-repeat: no-repeat;
+    background-position: 245px;
+    background-size:  33px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+.butao{
+    border: none;
+    border-radius: 8px;
+    width: 210px;
+    height: 50px;
+    background: #FFAD32;
+    font-size: 20.8px;
+    font-family: "Poppins", sans-serif;
+    color: #ffff;
+}
+
+.butao:hover{
+    background-color: #747dff;
+}
