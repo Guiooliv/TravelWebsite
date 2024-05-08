@@ -71,7 +71,6 @@
 
 .inputs {
     background-color: hsla(236, 100%, 73%, 35%);
-    ;
     height: 200px;
     display: flex;
     align-items: center;
@@ -114,6 +113,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-radius: 8px;
     border: 2px solid gray;
     font-family: "Poppins", sans-serif;
+    padding: 10px;
 }
 
 #data_sair {
@@ -394,4 +394,137 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .anterior{
     left: 20rem;
+}
+
+.footer{
+    background: #3C4852;
+    height: 330px;
+    color: #B8C0C7;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.buenas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 280px;
+}
+
+.buenas h3{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Lobster", sans-serif;
+}
+
+.textfo{
+    width: 333px;
+    height: 47px;
+}
+
+
+#cred{
+    width: 337px;
+    height: 48px;
+}
+
+.parceiros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 220px;
+    height: 210px;
+}
+
+.parceiros h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.parceiros p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    height: 220px;
+    
+}
+
+#ass, #siga{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+#siga{
+    height: 30px;
+}
+
+#ip{
+    padding: 10px;
+    width: 309px;
+    height: 37px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: none;
+}
+
+#bo{
+    border: none;
+    background-color: #FFAD32;
+    width: 81px;
+    height: 37px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #ffff;
+}
+
+#bo:hover{
+    background-color: #747DFF;
+}
+
+.form2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.news hr{
+    width: 398px;
+    border: 1px solid #B8C0C7;
+}
+
+.azul{
+    background: #747DFF;
+    height: 79px;
+}
+
+.redes{
+    display: flex;
+    gap: 10px;
+}
+
+.redes i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 3px solid #767F86;
+    border-radius: 50%;
+    color: #ffff;
+}
+
+.redes i:hover {
+    border: 3px solid #FFAD32;
+    color: #FFAD32;
 }
